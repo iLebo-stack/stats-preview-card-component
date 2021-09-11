@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="card">
+
+      <div class="image">
+        <img 
+        srcset="images/image-header-mobile.jpg 654w,
+                images/image-header-desktop.jpg 540w"
+        sizes="(max-width: 500px) 654px,
+               540px"
+        src="images/image-header-mobile.jpg" 
+        alt="Women in office">
+      </div>
+
+      <div class="content">
+        <h2 class="content__header">Get <span class="content__span">insights</span> that help your business grow.</h2>
+
+        <p id="main" class="content__body">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+          <div class="content__statscontainer">
+            <p class="stats-heading content__headingstats"><span class="stats content__stats">10k+</span><br>COMPANIES</p>
+            <p class="stats-heading content__headingstats"><span class="stats content__stats">314</span><br>TEMPLATES</p>
+            <p class="stats-heading content__headingstats"><span class="stats content__stats">12M+</span><br>QUERIES</p>
+          </div>
+      </div>
+    </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/iLebo-stack/">Lebogang</a>.
+  </div>
+</body>
+</html>
